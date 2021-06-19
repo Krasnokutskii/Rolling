@@ -34,7 +34,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     var levelLabel: SKLabelNode!
-    var currentLevel = 3{
+    var currentLevel = 1{
         didSet{
             levelLabel.text = "Level: \(currentLevel)"
         }
